@@ -4,12 +4,11 @@ const MusicPlayer = () => {
     const audioRef = useRef(null);
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentTrack, setCurrentTrack] = useState(0);
-    const [isAutoplayAllowed, setIsAutoplayAllowed] = useState(false);
 
     const playlist = [
         "/audio/Beautiful_In_White.mp3",
-        "/audio/Em_Đồng_Ý.mp3",
         "/audio/Đơn_Giản_Anh_Yêu_Em.mp3",
+        "/audio/Em_Đồng_Ý.mp3",
     ];
 
     // Xử lý autoplay - phát khi có user interaction
@@ -77,6 +76,7 @@ const MusicPlayer = () => {
 
             <audio
                 ref={audioRef}
+                autoPlay
                 onEnded={handleEnded}
                 loop={false}
                 preload="auto"

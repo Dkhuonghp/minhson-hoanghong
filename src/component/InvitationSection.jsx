@@ -1,12 +1,17 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 function InvitationSection() {
     const { t } = useTranslation();
 
     return (
         <section className="wpo-event-section section-padding">
-            <div id="iibdl" data-uuid="65ac636d574b6" className="container-fluid">
+            <div
+                id="iibdl"
+                data-uuid="65ac636d574b6"
+                className="container-fluid"
+            >
                 <div id="iz6qk" data-uuid="65ac636d574b9" className="row">
                     <div
                         id="iyky5"
@@ -37,7 +42,7 @@ function InvitationSection() {
                             data-editable="true"
                             className="mt-5 h3"
                         >
-                            {t('banner.groom')} &amp; {t('banner.bride')}
+                            {t("banner.groom")} &amp; {t("banner.bride")}
                         </h3>
                     </div>
                     <div
@@ -61,7 +66,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="text-uppercase font-questrial"
                                 >
-                                    {t('invitation.groomFamily')}
+                                    {t("invitation.groomFamily")}
                                 </h4>
                                 <h5
                                     id="i9iirv"
@@ -69,7 +74,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial mt-4"
                                 >
-                                    {t('invitation.groomFather')}
+                                    {t("invitation.groomFather")}
                                 </h5>
                                 <h5
                                     id="ibftnw"
@@ -77,7 +82,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial"
                                 >
-                                    {t('invitation.groomMother')}
+                                    {t("invitation.groomMother")}
                                 </h5>
                             </div>
                             <div
@@ -110,7 +115,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="text-uppercase font-questrial"
                                 >
-                                    {t('invitation.brideFamily')}
+                                    {t("invitation.brideFamily")}
                                 </h4>
                                 <h5
                                     id="i6qzt7"
@@ -118,7 +123,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial mt-4"
                                 >
-                                    {t('invitation.brideFather')}
+                                    {t("invitation.brideFather")}
                                 </h5>
                                 <h5
                                     id="ibftnw"
@@ -126,7 +131,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="font-questrial"
                                 >
-                                    {t('invitation.brideMother')}
+                                    {t("invitation.brideMother")}
                                 </h5>
                             </div>
                         </div>
@@ -141,7 +146,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial fw-bold"
                             >
-                                {t('invitation.invitation')}
+                                {t("invitation.invitation")}
                             </h3>
                             <div id="ix4xqv">
                                 <h4
@@ -149,9 +154,12 @@ function InvitationSection() {
                                     data-uuid="65ac636d574f9"
                                     data-editable="true"
                                     className="font-questrial mt-1 vs-attendance-name-text"
-                                    style={{ fontWeight: 600, display: "inline" }}
+                                    style={{
+                                        fontWeight: 600,
+                                        display: "inline",
+                                    }}
                                 >
-                                    {t('invitation.invitationText')}
+                                    {t("invitation.invitationText")}
                                 </h4>
                             </div>
                             <h5
@@ -160,7 +168,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-1 vs-attendance-name-text"
                             >
-                                {t('invitation.blessing')}
+                                {t("invitation.blessing")}
                             </h5>
                         </div>
                         <div
@@ -179,7 +187,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="invitator-name"
                                 >
-                                    {t('banner.groom')}
+                                    {t("banner.groom")}
                                 </h2>
                             </div>
                             <div
@@ -207,7 +215,7 @@ function InvitationSection() {
                                     data-editable="true"
                                     className="invitator-name"
                                 >
-                                    {t('banner.bride')}
+                                    {t("banner.bride")}
                                 </h2>
                             </div>
                         </div>
@@ -223,7 +231,7 @@ function InvitationSection() {
                                 className="fw-bold font-questrial mt-2 mb-3"
                                 style={{ fontSize: "1.3rem", color: "#333" }}
                             >
-                                {t('invitation.groomFamily')}
+                                {t("invitation.groomFamily")}
                             </h4>
                             <h5
                                 id="ix47g81"
@@ -231,7 +239,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                {t('invitation.groomTime')}
+                                {t("invitation.groomTime")}
                             </h5>
                             <h5
                                 id="i30eqh1"
@@ -239,8 +247,20 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                {t('invitation.groomAddress')}
+                                {t("invitation.groomAddress")}
                             </h5>
+                            <div className="btn-box">
+                                <a
+                                    href="https://maps.app.goo.gl/DCfG4CWseidTVMSW7"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="theme-btn btn-style-two mt-4"
+                                >
+                                    <span className="btn-title">
+                                        Xem vị trí
+                                    </span>
+                                </a>
+                            </div>
 
                             <h4
                                 id="i0oaij2"
@@ -249,7 +269,7 @@ function InvitationSection() {
                                 className="fw-bold font-questrial mt-5 mb-3"
                                 style={{ fontSize: "1.3rem", color: "#333" }}
                             >
-                                {t('invitation.brideFamily')}
+                                {t("invitation.brideFamily")}
                             </h4>
                             <h5
                                 id="ix47g82"
@@ -257,7 +277,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                {t('invitation.brideTime')}
+                                {t("invitation.brideTime")}
                             </h5>
                             <h5
                                 id="i30eqh2"
@@ -265,8 +285,21 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-questrial mt-2"
                             >
-                                {t('invitation.brideAddress')}
+                                {t("invitation.brideAddress")}
                             </h5>
+
+                            <div className="btn-box">
+                                <a
+                                    href="https://www.google.com/maps?q=C47W+5GQ+%C4%90%E1%BB%93+g%E1%BB%97+H%C3%A0+D%C3%A2n,+M%E1%BB%B9+X%C3%A1,+Nam+%C4%90%E1%BB%8Bnh,+07118&ftid=0x3135df1b98f79be7:0xfffc25eb7d03c326&entry=gps&shh=CAE&lucs=,94297699,94284511,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI2LjEwLjIuODc3MzE3OTEwMBgAINeCAypILDk0Mjk3Njk5LDk0Mjg0NTExLDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJWTg%3D%3D&skid=a04ed5e2-fa76-489f-a317-de5cbeaff0eb&g_st=ic"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="theme-btn btn-style-two mt-4"
+                                >
+                                    <span className="btn-title">
+                                        Xem vị trí
+                                    </span>
+                                </a>
+                            </div>
 
                             <h5
                                 id="ixrcjo"
@@ -275,7 +308,7 @@ function InvitationSection() {
                                 className="font-questrial mt-5 fst-italic"
                                 style={{ color: "#e74c3c", fontWeight: "600" }}
                             >
-                                {t('invitation.note')}
+                                {t("invitation.note")}
                             </h5>
 
                             <h5
@@ -284,7 +317,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-dancing mt-5"
                             >
-                                {t('invitation.thankMessage1')}
+                                {t("invitation.thankMessage1")}
                             </h5>
                             <h5
                                 id="in0cbl2"
@@ -292,7 +325,7 @@ function InvitationSection() {
                                 data-editable="true"
                                 className="font-dancing mt-2"
                             >
-                                {t('invitation.thankMessage2')}
+                                {t("invitation.thankMessage2")}
                             </h5>
                         </div>
                     </div>

@@ -151,19 +151,6 @@ function CoupleSection() {
                                 >
                                     {t('banner.groom')}
                                 </h4>
-                                {/* <div
-                                    data-uuid="65ac636d575c3"
-                                    id="if73su"
-                                    className="text"
-                                > */}
-                                    {/* <span
-                                        data-uuid="65ac636d575c8"
-                                        data-editable="true"
-                                        id="i4mq1b"
-                                    >
-                                        Anh IT hài hước vui tính 🤗
-                                    </span>
-                                </div> */}
                                 <div
                                     data-uuid="65ac636d57595"
                                     id="i8d80z"
@@ -244,19 +231,6 @@ function CoupleSection() {
                                 >
                                     {t('banner.bride')}
                                 </h4>
-                                {/* <div
-                                    data-uuid="65ac636d575c3"
-                                    id="if73su"
-                                    className="text"
-                                >
-                                    <span
-                                        data-uuid="65ac636d575c8"
-                                        data-editable="true"
-                                        id="i4mq1b"
-                                    >
-                                        Cô điều dưỡng hiền lành đáng yêu 🥰
-                                    </span>
-                                </div> */}
                             </div>
                         </div>
                     </div>
