@@ -257,7 +257,7 @@ function InvitationSection() {
                                     className="theme-btn btn-style-two mt-4"
                                 >
                                     <span className="btn-title">
-                                        Xem vị trí
+                                        {t("invitation.position")}
                                     </span>
                                 </a>
                             </div>
@@ -296,7 +296,7 @@ function InvitationSection() {
                                     className="theme-btn btn-style-two mt-4"
                                 >
                                     <span className="btn-title">
-                                        Xem vị trí
+                                        {t("invitation.position")}
                                     </span>
                                 </a>
                             </div>
